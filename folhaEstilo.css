@@ -1,12 +1,22 @@
+body {
+    background-color: #3ec0d6;  
+    margin: 10px;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
 .galeria {
     position: relative; /* permite o posicionamento absoluto das imagens dentro dele*/
     width: 100%; /*  A largura é definida como 100%, para que a galeria ocupe toda a largura do contêiner pai */
     height: 500px; /* A altura é definida como 400px como exemplo, mas você pode ajustá-la de acordo com suas preferências. */ 
     overflow: hidden; /*  é usada para garantir que o conteúdo excedente não seja exibido além da área definida. */
+    margin: 0;
 }
 
 .galeria img {
     position: absolute; /* para sobrepor uma img à outra */ 
+    margin: 0;
     width: 100%; /* são definidos como 100% para preencher todo o espaço disponível no contêiner. */ 
     height: 100%; /*são definidos como 100% para preencher todo o espaço disponível no contêiner. */
     object-fit: contain; /*garante que a imagem seja redimensionada de forma proporcional para preencher completamente o espaço, mantendo a proporção da imagem. */
@@ -18,6 +28,7 @@
 }
 
 .logo {    
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
