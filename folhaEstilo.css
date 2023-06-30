@@ -18,11 +18,15 @@
 }
 
 .logoindex {
-    margin: 5px 0 0 500px;
-    padding: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagemindex {
+    display: block;
+    margin: 0 auto;
     width: 400px;
-    height: 50px;
+    height: auto;
 }
