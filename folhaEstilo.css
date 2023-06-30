@@ -17,16 +17,16 @@
     opacity: 0; /*define a opacidade das imagens que não são a primeira para 0, ou seja, elas estarão invisíveis inicialmente. */
 }
 
-.logoindex {
+.logo {
     
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imagemindex {
+.imagemLogo {
     display: block;
     margin: 0 auto;
-    width: 400px;
+    width: 200px;
     height: auto;
 }
