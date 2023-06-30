@@ -17,8 +17,7 @@
     opacity: 0; /*define a opacidade das imagens que não são a primeira para 0, ou seja, elas estarão invisíveis inicialmente. */
 }
 
-.logo {
-    
+.logo {    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +26,6 @@
 .imagemLogo {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 300px;
     height: auto;
 }
