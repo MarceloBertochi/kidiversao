@@ -47,6 +47,7 @@ html, body {
     object-fit: cover; /*garante que a imagem seja redimensionada de forma proporcional para preencher completamente o espaço, mantendo a proporção da imagem. */
     object-position: top center; /* priorizar parte de cima da imagem e centralizar horizontalmente */
     transition: opacity 1s ease-in-out; /* é adicionada para criar uma transição suave de opacidade. */
+    border-radius: 25px;
 }
 
 .galeria img:not(:first-child){
@@ -64,7 +65,7 @@ html, body {
     border: 1px solid black;
     justify-content: center; /* centraliza o botão dentro do container*/
     padding: 10px; /* espaçamento do botão dentro da container*/
-    width: 140px; /* largura do botão */
+    width: 120px; /* largura do botão */
     text-align: center; /* centraliza o conteúdo dentro do botão*/
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*fonte da letra*/
     font-size:16px ; /*tamanho da fonte*/
