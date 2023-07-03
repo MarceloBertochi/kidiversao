@@ -64,7 +64,7 @@ html, body {
     text-decoration: none; /* remove o underline */
     border: 1px solid black;
     justify-content: center; /* centraliza o botão dentro do container*/
-    padding: 10px; /* espaçamento do botão dentro da container*/
+    padding: 6px; /* espaçamento do botão dentro da container*/
     width: 120px; /* largura do botão */
     text-align: center; /* centraliza o conteúdo dentro do botão*/
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*fonte da letra*/
@@ -79,6 +79,21 @@ html, body {
 .botaolink:hover {
     box-shadow: 5px 5px 5px 5px #0D47A1; /*dá uma sombra no botão*/
 }
+
+.redefacebook, .redeinstagran{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.facebook, 
+.instagran {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
 
 
 @media( max-width: 768px ) {
